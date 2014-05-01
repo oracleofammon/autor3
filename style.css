@@ -1,0 +1,426 @@
+html, body { 
+  min-height: 100%; 
+  height: 100%; 
+}
+
+html {font-size: 12px}
+
+body { 
+  margin: 0; 
+  color: #444; 
+  font-family: 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-size: 1.4rem; 
+  background: #fff; 
+}
+
+footer { 
+  width: 100%; 
+  font-size: 1.125rem; 
+  color: #999; 
+  background: url('footer-background.png'); 
+  position:relative;
+}
+    
+h1 { 
+  font-size: 1.5rem;
+  color: #222; 
+  font-family: 'Lucida Sans Unicode', 'Helvetica Neue'; 
+}
+
+h2 {
+  font-size: 2rem; 
+  color: #222; 
+}
+
+p {
+  margin: 1rem 0; 
+  font-size: 1.25rem; 
+} 
+
+li {font-size: 1.25rem;}
+
+a { 
+  color: rgb(93, 173, 212); 
+  text-decoration: none; 
+}
+
+a:hover { 
+          color: #444; 
+          text-decoration: none; 
+} 
+
+input {
+      border: 0; 
+      font-family: 'Lucida Sans Unicode', 'Helvetica Neue', Arial, sans-serif; 
+      outline: 0; 
+} 
+
+:-webkit-input-placeholder {color: #ccc;} 
+
+{color: #ccc;}
+      ::-moz-placeholder {color: #ccc;}
+      :-ms-input-placeholder {color: #ccc;}
+
+ul {
+      list-style-type:none; 
+      padding-left: 40px; 
+      margin:0; 
+}
+
+li { 
+      margin-bottom: 1rem;
+      list-style-type: disc; 
+}
+
+h2, h3 {font-family: 'Lucida Sans Unicode', 'Helvetica Neue';}
+
+strong {font-family: 'Luicida Sans Unicode', 'Helvetica Neue';}
+
+.invisibile {display: none}
+
+.left {text-align: left}
+
+div.center { 
+    position: relative; 
+    text-align: left; 
+    float: left; 
+	width: 500px; 
+	margin: 16rem 1rem
+}
+
+.center {text-align: center}
+
+.right {float: right;}
+
+.lowercase {text-transform: lowercase} 
+
+.transparent {opacity: 0;}
+
+div.mantra .line1, div.mantra .line2 {opacity:0;}
+
+div.left, div.right { 
+    padding: 6rem 1rem 0; 
+    width: 17rem; 
+    float: left; 
+}
+
+div.logo {
+  background:url(https://s3.amazonaws.com/Autor2/autorlogo.png); 
+  background-repeat: no-repeat; 
+  z-index: 1; 
+  position:absolute; 
+  height:180px; 
+  width:216px; 
+} 
+
+div.intro {
+  width: 100%; 
+  height: 100%; 
+  display: table; 
+}
+
+head {
+  display: none; 
+}
+
+body {
+  width:100%; 
+  height:100%; 
+  -webkit-background:-
+    size: cover; 
+  -moz-background-size:cover; 
+  background-size:cover; 
+  background-color:#fff; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  position:relative; 
+  margin:0; 
+  padding:0; 
+  opacity:1;
+}
+
+#container {
+  width:100%; 
+  height:100%; 
+  zoom:1; 
+  margin:0; 
+}
+
+.container {
+  margin:2rem 2rem; 
+  display:none; 
+}
+
+.invisible {
+  display:none; 
+}
+
+.mantra {
+  display:table-cell; 
+  height:100%; 
+  width:37.5rem; 
+  margin:0 auto; 
+  padding-top:5rem; 
+}
+
+.icon {
+  text-align:center; 
+  position:relative; 
+  height:180px; 
+  width:216px; 
+  margin:7rem auto 0;
+  
+}
+
+div.mantra h1 {
+  text-align:center; 
+  font-size:2.5rem; 
+  margin:2rem 0 2.75rem; 
+  font-family:'Lucide Sans Unicode', 'Helvetica'; 
+}
+
+.mail-wrapper {
+  padding-top:25px; 
+  width:32.5rem; 
+  margin:0 auto; 
+  height:6rem; 
+  position:relative; 
+}
+
+.input-wrappers {
+  width:27rem; 
+  margin:90px auto 20px; 
+  height:3.5rem; 
+  position:relative; 
+}
+
+div.getlink {
+	width:27rem
+	opacity:0; 
+	border-bottom:1px solid #eee; 
+	height:3.5rem; 
+}
+
+div.input-wrapper {
+  overflow:hidden; 
+  top:0; 
+  left:0; 
+}
+
+div.input-wrappers .enter-email {
+  position:absolute;
+  margin:auto; 
+}
+
+.input {
+  background:#fff; 
+  height:3.25rem; 
+  width:20.5rem;
+  float: left; 
+  -webkit-border-radius:.2rem; 
+  -moz-border-radius:.2rem; 
+  border-radius:.2rem; 
+  border:1px solid #ddd;
+  position: relative;
+}
+
+.mail-list {
+  
+}
+
+div.input input, div.input span.placeholder {
+  height: 2.25rem; 
+  padding:.5rem 1rem 0; 
+  width: 18rem; 
+  font-size: 1.5rem; 
+  color:#444; 
+}
+
+.id-get-link {
+  
+}
+
+div.input-wrapper input.input-button, div.download a {
+  float:left; 
+  background: #444; 
+  color:#fff; 
+  -webkit-border-radius:.2rem; 
+  -moz-border-radius:.2rem; 
+  border-radius:.2rem; 
+  font-size:1.25rem; 
+  padding:1rem 1.4rem; 
+  margin-left:.9rem; 
+  letter-spacing:.02rem;  
+}
+
+div.learnmore {
+  -webkit-font-smoothing:antialiased; 
+  height:850px; 
+  border-top:2px solid #ddd; 
+  background-image:url('learnmore.png'); 
+  -webkit-background-size:cover; 
+  -moz-background-size:cover; 
+  background-size:cover; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  position:relative; 
+  padding-top: 6rem; 
+}
+
+div.learnmore div.centered {
+  width:83rem; 
+  margin:0 auto; 
+}
+
+div.learnmorehint p.arrow {
+  position:relative; 
+  margin:0; 
+}
+
+div.learnmorehint p a {
+  margin: .3rem; 
+  font-size: 2rem; 
+  color: #4611BF; 
+}
+
+div.learnmorehint {
+  position:absolute;
+  text-align:center; 
+  width:100%; 
+  bottom:70px; 
+  color:#999; 
+  cursor:pointer; 
+}
+
+div.learnmore div.snippet {
+  margin-bottom:5rem; 
+  text-align:center; 
+}
+
+div.snippet .symbol {
+  height:65px; 
+  background-position:center center; 
+  background-repeat:no-repeat; 
+  top:30px; 
+  opacity:0; 
+  position:relative; 
+}
+
+div.engage .symbol {
+  background-image:url('https://s3.amazonaws.com/Autor2/engage60.png');
+}
+
+
+
+div.learn .symbol {
+  background-image:url('https://s3.amazonaws.com/Autor2/differentiate-yourself50.png')
+}
+
+div.learnmore video {
+  position:absolute; 
+  top:34px; 
+  left:46px; 
+  width:408px; 
+  height:294px; 
+}
+
+div.traffic .symbol {
+  background-image:url('https://s3.amazonaws.com/Autor2/ideas60.png'); 
+}
+
+div.analytics .symbol {
+  background-image:url('https://s3.amazonaws.com/Autor2/understand60.png');
+}
+
+footer .inner {
+  margin:0 auto; 
+  width:62rem 
+  padding:1rem 0 2rem 0; 
+}
+
+footer .column-inner {
+  width:160px; 
+  margin:0 auto; 
+}
+
+footer ul {
+  display:table;
+  padding-left:0;
+}
+
+footer li {
+  list-style-type:none; 
+}
+
+
+
+footer .footer-bg {
+  background:#000; 
+  opacity:.52; 
+}
+
+footer .column {
+  width: 33%; 
+  float:left; 
+}
+
+.background {
+	width: 100%;
+	height: 330px; 
+	background:url(https://s3.amazonaws.com/Autor2/audience4.png);
+	position: absolute; 
+	top: 150px;
+	background-repeat: no-repeat; 
+	z-index: -1; 
+    -webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	background-size:cover; 
+}
+
+.center {
+	
+}
+
+div.center img {
+	max-width: 100%; 
+	height: auto; 
+}
+
+div.social {
+	height: 78px; 
+	position: absolute; 
+	top: -78px; 
+	width: 100%; 
+}
+
+div.social div.bg {
+	background: #C5C5C5; 
+	opacity: .52; 
+	width: 100%; 
+	height: 78px; 
+	top: 0; 
+	left: 0; 
+	position: absolute; 
+}
+
+div.social ul {
+	margin: 2.75rem auto; 
+	position: relative; 
+	z-index: 1; 
+}
+
+.emailus {
+	font-size: 2rem; 
+	font-weight: bold;  
+}
+
+footer .copyright {
+	color: #999; 
+	text-align: center; 
+	font-size: 1rem;
+	margin: 2rem 0 0rem; 
+}
+
+footer .inner strong {
+	color: #fff; 
+}
